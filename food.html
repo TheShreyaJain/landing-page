@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="food-info-page container">
+        <h1>Choose Your Food</h1>
+        <div class="food-items">
+            <!-- Burger Item -->
+            <div class="food-item">
+                <input type="radio" id="burger" name="food" class="food-radio">
+                <label for="burger" class="food-label">
+                    <h2>Burger</h2>
+                    <img class="food-img" src="burger.jpg" alt="Burger">
+                </label>
+                <div class="food-types">
+                    <div class="burger-types">
+                        <img class="food-img" src="./cheese.jpg" alt="Cheese Burger" WIDTH="200" height="200">
+                        <p class="food-name">CHEESE BURGER</p>
+                        <img class="food-img" src="./veggie.jpg" alt="Veggie Burger" WIDTH="200" height="200">
+                        <p class="food-name">VEGGIE BURGER</p>
+                        <img class="food-img" src="./chiken.jpg" alt="Chicken Burger" WIDTH="200" height="200">
+                        <p class="food-name">CHICKEN BURGER</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Pizza Item -->
+            <div class="food-item">
+                <input type="radio" id="pizza" name="food" class="food-radio">
+                <label for="pizza" class="food-label">
+                    <h2>Pizza</h2>
+                    <img class="food-img" src="pizza.jpg" alt="Pizza">
+                </label>
+                <div class="food-types">
+                    <div class="pizza-types">
+                        <img class="food-img" src="./marg.jpeg" alt="Margherita" WIDTH="200" height="200">
+                        <BR>
+                        <p class="food-name">MARGHERITA PIZZA</p>
+                        <img class="food-img" src="./peproni.jpg" alt="Pepperoni" WIDTH="200" height="200">
+                        <p class="food-name">PEPPERONI PIZZA</p>
+                        <img class="food-img" src="./bbq.jpg" alt="BBQ Chicken" WIDTH="200" height="200">
+                        <p class="food-name">CHICKEN PIZZA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="window.location.href='booking.html'">Proceed to Booking</button>
+    </div>
+</body>
+</html>
